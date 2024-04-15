@@ -54,7 +54,7 @@ class CRM_Bic_Parser_PL extends CRM_Bic_Parser_Parser {
       $key = $data[$i][4];
       $banks[$key] = array(
         'value'       => $key,
-        'name'        => $data[$i][20],
+        'name'        => empty($data[$i][20]) ? (empty($data[$i][19]) ? 'UNKNOWN' : $data[$i][19]) : $data[$i][20],
         'label'       => $data[$i][1] . ', ' . $data[$i][5],
         'description' => '',
         );
