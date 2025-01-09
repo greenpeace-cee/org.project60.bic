@@ -1,8 +1,8 @@
 {
-  "name": "project60/org.project60.bic",
+  "name": "greenpeace-cee/bic",
   "description": "Imports and maintains a list of banks",
   "version": "1.8.0-alpha1",
-  "type": "civicrm-module",
+  "type": "civicrm-ext",
   "authors": [
     {
       "name": "B. Endres",
